@@ -1,0 +1,21 @@
+.image-cover{
+    margin: auto;
+    border-radius: 10px 10px;
+    width: auto;
+    height: 14em;
+}
+.image-cover :hover{
+    transform: scale(1.008) ; 
+
+}
+.card-book{
+    cursor: pointer;
+}
+.card-book :hover{
+    transform: scale(1.008); 
+}
+@media only screen and (max-width: 600px) {
+    .content-library{
+        margin-left: 50px;
+    }
+}
