@@ -3,8 +3,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-    height: 80px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
     clear: both;
     bottom: 0px;
     border-color: #304562;

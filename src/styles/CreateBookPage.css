@@ -1,3 +1,9 @@
+.form-book{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
 .form-book .card {
     min-width: 450px;
 }
@@ -11,6 +17,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.check-input{
+    flex-direction: column;
 }
 @media screen and (max-width: 960px) {
     .form-book .card {
