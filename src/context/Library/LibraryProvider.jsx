@@ -6,7 +6,6 @@ import { libraryReducer } from './libraryReducer'
 
 const init = ()=>{  
     const books =  JSON.parse( localStorage.getItem('books')) || [];
-    console.log(localStorage.getItem('books'))
     return [...books]
 }
 

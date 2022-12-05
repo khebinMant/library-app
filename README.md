@@ -18,7 +18,7 @@
 
 ## Live demo
 
-[Live demo link](https://weather-app-km.vercel.app/)
+[Live demo link](https://library-app-zi7r.vercel.app/)
 
 ## Run it locally
 
