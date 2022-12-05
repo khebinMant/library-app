@@ -46,7 +46,7 @@ export const BookItem = ({book}) => {
               className='card-book animate__animated animate__bounceIn'
               title={book.title} 
               subTitle={book.author}
-              style={{ width: '18em', height:'25em',backgroundColor:color, borderRadius:'10px' }}  
+              style={{ width: '15em', height:'25em',backgroundColor:color, borderRadius:'10px' }}  
               header={header}
             >
             </Card>

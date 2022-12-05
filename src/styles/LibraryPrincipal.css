@@ -14,6 +14,7 @@
 .card-book :hover{
     transform: scale(1.008); 
 }
+
 @media only screen and (max-width: 600px) {
     .content-library{
         margin-left: 50px;

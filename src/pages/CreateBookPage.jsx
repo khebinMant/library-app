@@ -7,6 +7,7 @@ import { classNames } from "primereact/utils";
 import "../styles/CreateBookPage.css";
 
 import { useForm } from "../hooks/useForm";
+import { GoBack } from "../components/libraryLayout/GoBack";
 
 export const CreateBookPage = () => {
   const {
@@ -22,6 +23,7 @@ export const CreateBookPage = () => {
 
   return (
     <div className="form-book">
+      <GoBack/>
       <Dialog
         visible={showMessage}
         onHide={() => setShowMessage(false)}

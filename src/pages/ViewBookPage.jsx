@@ -1,5 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
+import { GoBack } from "../components/libraryLayout/GoBack";
+import { BookNotFound } from "../components/libraryViewBookPage/BookNotFound";
 import { BookView } from "../components/libraryViewBookPage/BookView";
 import { LibraryContext } from "../context/Library/LibraryContext";
 import '../styles/ViewBookPage.css'
@@ -18,13 +20,12 @@ export const ViewBookPage = () => {
   
   return (
     <>
+      <GoBack />
       {
         book?
-        <BookView book={book}/>
+          <BookView book={book}/>
         :
-        <>
-          <p>No hay ese libro</p>
-        </>
+          <BookNotFound />
       }
     </>
   )
