@@ -1,6 +1,6 @@
 <img src="./src/assets/kruger.png" height="50px">
 
-# Weather App
+# LibraryApp
 > Proyecto de la serie de videos para comprender hooks de react en este caso para practicar el useContext() useProvider() useReducer() useRef() useEffect() useState()
 
 <img src="./src/assets/mock.png" height="300px">
