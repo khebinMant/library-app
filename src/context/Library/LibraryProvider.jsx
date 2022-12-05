@@ -1,12 +1,18 @@
 import { useEffect, useReducer, useState } from "react";
+import { booksDB } from "../../data/booksDB";
 import { types } from "../types/types";
 import { LibraryContext } from "./LibraryContext"
 import { libraryReducer } from './libraryReducer'
 
 
 const init = ()=>{  
-    const books =  JSON.parse( localStorage.getItem('books')) || [];
-    return [...books]
+    if(localStorage.getItem("books") === null){
+        return [...booksDB]
+    }
+    else{
+        const books =  JSON.parse( localStorage.getItem('books')) || [];
+        return [...books]
+    }
 }
 
 export const LibraryProvider = ({ children }) => {
