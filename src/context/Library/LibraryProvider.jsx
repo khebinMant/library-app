@@ -30,7 +30,7 @@ export const LibraryProvider = ({ children }) => {
     }
 
     const updateBook = (book)=>{
-        const bookIndex = libraryState.findIndex((item) =>item.id == book.id)
+        const bookIndex = libraryState.findIndex((item) =>item.id === book.id)
         const action = {type: types.updateBook, payload:{book,bookIndex}}
         dispatch(action)
     }

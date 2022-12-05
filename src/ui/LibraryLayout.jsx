@@ -4,12 +4,13 @@ import { NavBar } from '../components/libraryLayout/NavBar'
 
 const containerStyle = {
   width: "90%",
+  paddingBottom: '180px',
   margin: "100px auto",
 };
 
 export const LibraryLayout = ({children}) => {
   return (
-    <div>
+    <div className='wrap'>
       <NavBar/>
       <div  style={containerStyle}>
         {children}

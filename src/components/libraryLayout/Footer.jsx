@@ -5,7 +5,7 @@ export const Footer = () => {
  
   return (
     <footer className="footer">
-       <img alt="logo" src={kmaleon} onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} height="150" className="mr-2"></img>
+       <img  alt="logo" src={kmaleon} onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} height="140" className="kmaleon"></img>
        <h3>Mi libreria digital</h3>
       <span>
         <h3>

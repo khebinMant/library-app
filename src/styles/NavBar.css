@@ -1,23 +1,39 @@
 .footer{
     color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(31,45,64);
-    position: fixed;
+    position: relative;
+    height: 80px;
+    clear: both;
     bottom: 0px;
     border-color: #304562;
     border-width: 0.5px;
     border-radius: 2px;
     border-style: solid;
-    width: 100%;
-    height: 35px;
     background-image: url('../assets/navBack.png');
+    background-size: 2000px  400px;
+}
+.kmaleon{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.wrap{
+    min-height: 100%;
 }
 .nav-bar{
+    color: black;
+    background-image: url('../assets/navBack.png');
+    background-size: 2000px 400px;
     font-size: 20px;
 }
 .goBack{
     position: absolute;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        font-size: 10px;
+    }
 }
